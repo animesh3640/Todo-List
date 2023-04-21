@@ -1,0 +1,54 @@
+/* *{
+    
+} */
+body{
+    background-color: rgb(13, 11, 56);
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+   flex-wrap: wrap;
+}
+.list-item{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    border: 2px solid  gray;
+    font-size: large;
+    margin-left: -40px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: larger;
+} 
+
+button{
+    
+    font-weight: 600;
+    background-color: lightgreen;
+}
+
+input , button{
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+.getter{
+    display: flex;
+    gap: 10px;
+}
+@media(max-width:400px){
+    .getter{
+        flex-direction: column;
+    }
+    .list-item{
+        width: 250px;
+    }
+   
+}
